@@ -3,6 +3,18 @@
 > **Executive PG Diploma in Data Science & AI** | IIIT Bangalore  
 > **Tool:** Microsoft Power BI | **Module:** Advanced Data Visualisation
 
+## Deliverables and viewing the work
+
+This repository includes the source workbook and exported presentation/report files:
+
+- [Dynamic dashboard assignment PDF](./DV%20Assignment%20Dynamic%20Dashboard.pdf)
+- [Technical report PDF](./DV_Namma_Yatri_Piyush_Sharma_Report.pdf)
+- [Management presentation](./DV_Namma_Yatri_Piyush_Sharma_Management.pptx)
+- [Technical presentation](./DV_Namma_Yatri_Piyush_Sharma_Technical.pptx)
+- `nammayatri.xlsx` — analysis data workbook
+
+**Power BI file availability:** An editable `.pbix` file is not currently included. The repository provides the workbook and exported documentation/presentations, rather than a directly openable Power BI Desktop project.
+
 ---
 
 ## 📌 Project Overview
@@ -26,6 +38,8 @@ The dataset consists of **5 tables** imported into Power BI:
 | `Payment` | 4 | Lookup table — payment methods (cash, UPI, debit card, credit card) |
 
 > ⚠️ `Trip_Details` has more rows than `Trips` because it captures every search attempt, including those that never converted into a completed ride. This is expected, not a data error.
+
+> **Relationship validation:** Confirm key uniqueness and relationship cardinality in Power BI before reusing the model. Table row counts alone do not prove a one-to-one relationship, and search attempts should not be assumed to correspond to completed trips.
 
 ---
 
